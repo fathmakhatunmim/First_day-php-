@@ -24,8 +24,11 @@
     //$_GET = key = input name, value (same as a user)
 
  if (isset($_GET["username"]) && isset($_GET["Password"])) {
-    echo $_GET["username"]."<br>";
-    echo $_GET["Password"]."<br>";
+    // echo $_GET["username"]."<br>";
+    // echo $_GET["Password"]."<br>";
+
+    echo "{$_GET["username"]} <br>";
+    echo "{$_GET["Password"]} <br>";
 }
     ?>
 </body>
