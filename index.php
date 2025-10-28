@@ -69,6 +69,9 @@ $price = 5.99;
  echo "you total is: \${$total}";
 
 
+ 
+
+
 
 
     ?>
